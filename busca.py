@@ -14,12 +14,12 @@ HEADERS = {
     "Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
 }
 
-TIMEOUT = 15  # segundos
-MAX_RETRIES = 2  # tentativas por URL
-DELAY_BETWEEN_REQUESTS = 1  # evitar bloqueio
-VERBOSE = True  # Modo verbose padrão
-PROXIES = None  # Configuração de proxy
-OUTPUT_FORMAT = 'json'  # Padrão de saída: 'json' ou 'txt'
+TIMEOUT = 15  
+MAX_RETRIES = 2  
+DELAY_BETWEEN_REQUESTS = 1  
+VERBOSE = True  
+PROXIES = None  
+OUTPUT_FORMAT = 'json'  
 
 # Cores (opcional)
 try:
